@@ -4,3 +4,9 @@ $('#mc-form').ajaxChimp({
     	$('#confirmationModal').modal('show');
     }
 });
+
+$(document).ready(function(){
+	if(window.location.search === "?confirmed"){
+		$('#subscribtionConfirmedModal').modal('show');
+	}
+});
