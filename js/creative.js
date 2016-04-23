@@ -25,7 +25,7 @@
     $("h1").fitText(
         1, {
             minFontSize: '35px',
-            maxFontSize: '120px'
+            maxFontSize: '90px'
         }
     );
 
